@@ -1,0 +1,158 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    overflow-x: hidden;
+}
+
+.upper {
+    background-color: #DEF5E5;
+
+
+    position: relative;
+    height: 100vh;
+
+
+
+}
+
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sno {
+    display: inline-block;
+
+    position: relative;
+
+    left: 10px;
+    height: 300px;
+    width: 300px;
+
+}
+
+.txt {
+    display: inline-block;
+    top: -120px;
+    left: 10px;
+
+    position: relative;
+    right: 0;
+}
+
+.skill-row {
+    display: inline-block;
+    margin: 10px;
+}
+
+.skill-row1 {
+    display: inline-block;
+    position: relative;
+    right: 20px;
+    margin: 10px;
+}
+
+.tfs {
+    position: relative;
+
+    height: 300px;
+    width: 300px;
+}
+
+
+/* .mon {
+    text-align: end;
+    right:0;
+} */
+.top-container {
+
+    display: inline-block;
+    position: relative;
+
+    text-align: left;
+    top: -160px;
+    left: 350px;
+    font-size: 30px;
+
+}
+
+.asr {
+    display: inline-block;
+    position: relative;
+    left: 65px;
+
+
+    /* text-align: end; */
+    right: 0;
+}
+
+
+.middle-container {
+    display: block;
+}
+
+.bottom-container {
+    display: block;
+}
+
+
+h1 {
+    font-family: cursive;
+}
+
+.cloud1 {
+
+    text-align: center;
+    display: block;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: aqua;
+    font-size: larger;
+    background-color: yellow;
+
+}
+
+.stk {
+    position: sticky;
+    top: 0;
+
+}
+
+.btno {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 40%;
+    left: 2px;
+    z-index: 1;
+}
+.top-container {
+
+    margin: 2px;
+    
+    
+     border-image-slice:
+         15 15 15 15 fill;
+     border-image-width:
+         10px 10px 10px 10px;
+     border-image-outset:
+         0px 0px 0px 0px;
+     border-image-repeat:
+         round round;
+     border-image-source:
+         url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-3.png");
+     border-style:
+         solid;
+ }
